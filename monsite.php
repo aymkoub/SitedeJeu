@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ma présentation</title>
+        <link rel="stylesheet" href="css/monsite.css">     
+    </head>
+
+    <body>
+        <h1>Ma présentation</h1>
+        <p>
+            Bonjour à vous, je m'appelle Aymeric LE ROUX. Je crée ce site afin de vous montrer mes capacités en développement web.
+            <br><br>
+            Je suis aussi un grand fan des jeux. Jeux vidéo, jeux de société, jeux de cartes, ils m'intéressent et me plaisent tous. <br>
+            Je peux vous en présenter certains de mes préférés :
+        </p>
+        <div class="jeux">
+            <article>
+                <a href="https://www.cocktailgames.com/jeu/trio/" target="_blank">
+                    <h2>Trio</h2>
+                    <img src="img/Trio_3D.png" alt="Trio">
+                    <p>
+                        Trio est un jeu de cartes dans lequel les joueurs doivent former des trios de cartes <br> en révélant les cartes de plus petites ou 
+                        plus grandes valeurs <br>dans les mains adverses ou au centre de la table.
+                    </p>
+                </a>            
+            </article>
+            <article>
+                <a href="https://www.yugioh-card.com/eu/fr/" target="_blank">
+                    <h2>Yu-Gi-Oh</h2>
+                    <img src="img/Yu-Gi-Oh_Logo.JPG" alt="Logo Yu-Gi-Oh">
+                    <p>
+                        Jeu de cartes à collectionner<br>dans lequel 2 joueurs s'affrontent au cours d'un duel et doivent réduire les points de vie
+                        de leur adversaire à 0.<br>Alors faites en sorte de bien harmoniser votre deck pour remporter le duel.
+                    </p>
+                </a>            
+            </article>
+            <article>
+                <a href="https://www.spacecowboys.fr/unlock" target="_blank">
+                    <h2>Unlock</h2>
+                    <img src="img/unlock-extraordinary-adventures.png" alt="Unlock">
+                    <p>
+                        Des escape game à faire sur table,<br> avec des cartes et une application qui vous donne le scénario de la partie,<br> où vous devait
+                        vous echapper d'un lieu avant la fin du temps imparti.
+                    </p>
+                </a>
+            </article>
+        </div>
+        
+
+        <p>
+            J'ai aussi eu l'occasion, dans le cadre de mes études, de réaliser 2 jeux sérieux.<br>
+        </p>
+
+        <section>
+            <p>
+                Le premier est basé sur un citybuilder, c'est-à-dire on place des bâtiments sur une carte tout en essayant de maintenir un équilibre
+                entre les différentes jauges indiquant l'état de la ville.
+                <br>
+                Plus d'informations ici : <a href="https://github.com/aymkoub/Projet_Jeu_serieux" target="_blank">Projet de jeu sérieux
+                    <br>
+                    <img src="img/screenT3.png" alt="Projet jeu sérieux n°1">
+                </a>
+                <br>
+            </p>
+        </section>
+        <section>
+            <p>
+                Le deuxième est un rogue-lite dans lequel le joueur doit faire valider son projet de formation auprès de différentes instances, en utilisant des arguments plus ou moins efficaces.
+                Après chaque combat, de nouveaux arguments sont disponibles et peuvent être utilisés pour les prochains affrontements.
+                <br>
+                Plus d'informations ici : <a href="https://github.com/aymkoub/Projet-Jeu-Serieux-T4-Re-Master" target="_blank">Re-Master
+                    <br>
+                    <img src="img/screenT4.png" alt="Projet jeu sérieux n°2">
+                </a>
+            </p>
+        </section>
+            
+    </body>
+
+</html>
