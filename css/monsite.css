@@ -43,9 +43,14 @@ section:hover {
 }
 
 section img {
-    width : 45rem
+    width : 70%
 }
 
 .jeux {
+    text-align: center;
+}
+
+.serieux {
+    display: inline-block;
     text-align: center;
 }
